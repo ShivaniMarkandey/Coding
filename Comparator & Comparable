@@ -1,0 +1,18 @@
+1. For Comparatore,
+we need to overwrite "compare" function
+For ascending order sorting:
+if x>y => 1
+if x<y => -1
+if x==y => 0
+
+new Comparator<Integer>{
+  public int compare(Integer a, Integer b){
+    ....
+}
+
+
+2. For Comparable,
+we need to overwrite "compareTo" function
+
+Here one pbject is the calling object. 
+Only one parameter will be passed.
